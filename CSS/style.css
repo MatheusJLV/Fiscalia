@@ -1,0 +1,17 @@
+img,#rightHeader
+{
+  display: inline-block;
+  vertical-align: top; 
+}
+
+img
+{
+  height: 150px;
+}
+
+li
+{
+  list-style-type: none;
+  display: inline;
+  margin-left: 10%;
+}
