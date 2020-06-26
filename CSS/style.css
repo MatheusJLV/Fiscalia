@@ -15,3 +15,8 @@ li#NavItem
   display: inline;
   margin-left: 10%;
 }
+
+div#scrollview-alertas{
+  height: 450px;
+  overflow: scroll;
+}

@@ -7,10 +7,10 @@
   <meta charset="utf-8">
 
 
-  <title>Fiscalía General del Estado</title>
+  <title>Fiscalía General del  Estado</title>
 
   <meta name="author" content="KBF" />
-  <meta name="keywords" content="fiscalía, login" />
+  <meta name="keywords" content="fiscalía, Editar Perfil" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -20,7 +20,6 @@
 </head>
 
 <body>
-  <div class="container-fluid">
    <header class="row">
       <img class="col-sm-2" style="height: 100px; width: 20px"src="..\RECURSOS\logo4.png"/>
         <h1 class="col-sm-8">La casa de los corruptos es la cárcel</h1>
@@ -37,29 +36,49 @@
         </div>
     </header>
     <div class ="row mx-auto bg-info">
-        <img class="col-sm-4" id="ImgLaterales" src="..\RECURSOS\police.jpg"/>
-      <div id="conteregistro" class="col-sm-4 col-10 mx-auto border border-primary w-50 p-5 bg-light" style="width: 100px; height: 400px;">
+        <img class="col-sm-3 " id="logoNav" src="..\RECURSOS\police.jpg"/>
+      <div id="conteregistro" class="col-sm-6 col-12 mx-auto border border-primary w-50 p-5 bg-light" style="width: 100px; height: 650px;">
         <div class="h-25 text-center">
-          <h1>Iniciar Sesion</h1>
+          <h1>Editar Perfil</h1>
         </div>
         <form class="ml-5 ">
-        <div class="row">
-          <label for="mail" class="ml-3"> Correo: </label>
-          <input type="text" name="email" id="mail" class="ml-5">
+        <div class="row mt-3">
+           Género:
+        <input class="ml-1 mt-1" type="radio" id="masculino" name="gender" value="masculino">
+        <label class="ml-1" for="masculino">Masculino</label>
+        <input class="ml-1 mt-1" type="radio" id="femenino" name="gender" value="femenino">
+        <label class="ml-1" for="femenino">Femenino</label>
+        <input class="ml-1 mt-1" type="radio" id="otro" name="gender" value="otro">
+        <label class="ml-1" for="otro">Otro</label>
         </div>
-        <div class="row">
-          <label for="password" class="ml-3 mt-3"> Contraseña: </label>
-          <input type="password" name="psw" id="passw" class="ml-3 mt-3">
+        <div class="row mt-3" >
+           <label for="cedula" class="">Cédula/Pasaporte:</label>
+           <input class="ml-4 " type="text" id="cedula" name="cedula" required>
         </div>
         <div class="row mt-3">
-        <button type="registrar" class="ml-5 mt-3">Olvidé mi contraseña</button>
-        <button type="submit" class="ml-3 mt-3">Ingresar</button>
+          <label for="mail" class="mr-5"> Correo: </label>
+          <input type="text" name="email" id="mail" class="ml-5">
+        </div>
+        <div class="row mt-3">
+          <label for="password" class="mr-3"> Contraseña: </label>
+          <input type="password" name="psw" id="passw" class="ml-5">
+        </div>
+         <div class="row mt-3">
+          <label for="passwordvER" class=""> Verificar Contraseña: </label>
+          <input type="password" name="psw" id="passw" class="ml-1">
+        </div>
+        <div class="row mt-3" >
+           <label for="foto" class="">Foto:</label>
+           <input class="ml-4 " type="file" id="foto" name="foto" required  accept="image/png, image/jpeg"> 
+        </div>
+        <div class="row mt-3 mx-auto" style="width: 300px;">
+        <button type="submit" class="ml-5 mt-3">Actualizar Perfil</button>
       </div>
       </form>
     </div>
-    <img class="col-sm-4" id="ImgLaterales" src="C:\Users\kevin\OneDrive\Escritorio\carpetas\Semestres\SeptimoSemestre\DAWM\proyecto\police.jpg"/>
+    <img class="col-sm-3  " id="logoNav" src="..\RECURSOS\police.jpg"/>
     </div>
-    <footer class="ht-5">
+    <footer>
       <p>&copy;</p>
     </footer>
 
@@ -70,4 +89,5 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
+
   </html>
