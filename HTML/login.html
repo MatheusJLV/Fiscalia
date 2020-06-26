@@ -2,26 +2,27 @@
 <html lang="ar" dir="ltr">
 
 <head>
-	<meta charset="utf-8">
+  <link href="../CSS/style.css" rel="stylesheet" type="text/css" /> 
+
+  <meta charset="utf-8">
 
 
-	<title>Fiscalía Login</title>
+  <title>Fiscalía Login</title>
 
-	<meta name="author" content="KBF" />
-	<meta name="keywords" content="fiscalía, login" />
+  <meta name="author" content="KBF" />
+  <meta name="keywords" content="fiscalía, login" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-	 crossorigin="anonymous">
-
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+   crossorigin="anonymous">
 </head>
 
 <body>
-	<div class="container-fluid">
-		<header class="row">
-			<img src="RECURSOS/logo4.png"/>
+  <div class="container-fluid">
+    <header class="row">
+      <img src="../RECURSOS/logo4.png"/>
       <div id="rightHeader">
         <h1>La casa de los corruptos es la cárcel</h1>
         <nav id="navegacion">
@@ -34,23 +35,32 @@
         </nav>
       </div>
     </header>
-    <div>
-      <div id="conteregistro">
-      <form>
-        <div class="row">
-          <label for="mail" class="col-4 col-lg-3 col-xl-2 offset-1 offset-lg-2 offset-xl-3"> Correo: </label>
-          <input type="text" name="email" id="mail" class="col-5 col-lg-4 col-xl-3 offset-1">
+    <div class ="row mx-auto bg-primary">
+      <div class="col-sm-4"></div>
+      <div id="conteregistro" class="col-sm-4 col-10 mx-auto border border-primary w-50 p-5 bg-light" style="width: 100px; height: 400px;">
+        <div class="h-25 text-center">
+          <h1>Iniciar Sesion</h1>
         </div>
-        <br>
+        <form class="ml-5 ">
         <div class="row">
-          <label for="password" class="col-4 col-lg-3 col-xl-2 offset-1 offset-lg-2 offset-xl-3"> Contraseña: </label>
-          <input type="password" name="psw" id="passw" class="col-5 col-lg-4 col-xl-3 offset-1">
+          <label for="mail" class="ml-3"> Correo: </label>
+          <input type="text" name="email" id="mail" class="ml-5">
         </div>
-        <button type="registrar" class="offset-10 offset-lg-11">Olvidé mi password</button>
-        <button type="submit" class="offset-10 offset-lg-11">Enviar</button>
+        <div class="row">
+          <label for="password" class="ml-3 mt-3"> Contraseña: </label>
+          <input type="password" name="psw" id="passw" class="ml-3 mt-3">
+        </div>
+        <div class="row mt-3">
+        <button type="registrar" class="ml-5 mt-3">Olvidé mi password</button>
+        <button type="submit" class="ml-3 mt-3">Enviar</button>
+      </div>
       </form>
     </div>
+    <div class="col-sm-4"></div>
     </div>
+    <footer>
+      <p>&copy;</p>
+    </footer>
 
     </div>
     <!-- Optional JavaScript -->

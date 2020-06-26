@@ -1,15 +1,15 @@
-img,#rightHeader
+imgid#logoNav,#rightHeader
 {
   display: inline-block;
   vertical-align: top; 
 }
 
-img
+img#logoNav
 {
   height: 150px;
 }
 
-li
+li#NavItem
 {
   list-style-type: none;
   display: inline;
