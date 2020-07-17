@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<link href="../CSS/ayuda.css" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+	 crossorigin="anonymous">
+
+	<title>FGE - Ayuda</title>
+</head>
+
+<body>
+	<div class="row">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="../index.html"><img id="logoNav" src="../RECURSOS/logo5.PNG"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/HTML/informacion.html">Información <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/HTML/reportar.html">Denuncias <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/HTML/nosotros.html">Nosotros <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/HTML/ayuda.html">Ayuda <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <a href="/HTML/registro.html"><button type="button" class="btn btn-primary navBtn">Registrar</button></a>
+          </form>
+          <form class="form-inline my-2 my-lg-0">
+            <a href= "/HTML/login.html"><button type="button" class="btn btn-primary navBtn">Iniciar Sesión</button></a>
+          </form>
+          <a href="/HTML/decoy.html"><img src="/RECURSOS/panic_button.png" class="panicBtn navBtn"></a>
+        </div>
+      </nav>
+    </div>
+
+<main role="main" class="container">
+
+  <div class ="row">
+    <div class="col-3 flex-column">      
+      <p><a class="btn btn-info" href="#inicio-text" role="button">Inicio</a></p>
+      <p><a class="btn btn-info" href="#info-text" role="button">Información</a></p>
+      <p><a class="btn btn-info" href="#denuncias-text" role="button">Denuncias</a></p>
+      <p><a class="btn btn-info" href="#nosotros-text" role="button">Nosotros</a></p>
+      <p><a class="btn btn-info" href="#ayuda-text" role="button">Ayuda</a></p>
+      <p><a class="btn btn-info" href="#registrar-text" role="button">Registrar</a></p>
+      <p><a class="btn btn-info" href="#login-text" role="button">Iniciar Sesión</a></p> 
+      <p><a class="btn btn-danger" href="#danger-text" role="button">Botón Rojo</a></p>   
+    </div><!-- /.col -->
+    <div class="col-9 scrollable">
+      <h3>Esta página explica los botones de la barra de navegación y cómo hacer denuncias.</h3>
+      <div  class=" col-auto text-justify" id ="inicio-text">
+        <strong>Inicio</strong> - Lleva a la página principal
+      </div>
+      <div  class=" col-auto text-justify" id ="info-text">
+        <strong>Información</strong> - Material de referencia correspondiente a identificación de delitos y defensa personal.
+      </div>
+      <div  class=" col-auto text-justify" id ="denuncias-text">
+        <strong>Denuncias</strong> - Pasos recomendados: <br>
+        <ol>
+          <li>Vaya a la página Denuncias</li>
+          <li>Con los botones disponibles, seleccione el tipo de incidente que desee reportar.
+            <ul>
+            <li>En caso de no tener tiempo de llenar el formulario debido a urgencia, marque la casilla provista y envíe.</li/></ul>
+          </li>
+          </ol>
+      </div>
+      <div  class=" col-auto text-justify" id ="nosotros-text">
+        <strong>Nosotros</strong> - Datos institucionales de la Fiscalía General del Estado, sus labores, misión y visión. Además de acreditar a los programadores responsables por la página web.
+      </div>
+      <div  class=" col-auto text-justify" id ="ayuda-text">
+        <strong>Ayuda</strong> - La página de asistencia donde usted se encuentra actualmente.
+      </div>
+      <div  class=" col-auto text-justify" id ="registrar-text">
+        <strong>Registrar</strong> - Permite creación de usuario y contraseña para el sitio.
+      </div>
+      <div  class=" col-auto text-justify" id ="login-text">
+        <strong>Iniciar sesión</strong> - Permite ingresar a quien ya posea un usuario y contraseña.
+      </div>
+      <div  class=" col-auto text-justify" id ="danger-text">
+        <strong class = "text-danger">Botón Rojo</strong> - Presionar para informar sobre una emergencia. Ubicación será enviada en tiempo real. Permite cancelar alarma en caso de presión accidental.
+      </div>
+      
+      </div><!-- /.col -->
+  </div> <!-- /.row -->
+
+</main><!-- /.container -->
+
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+	 crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+	 crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+	 crossorigin="anonymous">
+	</script>
+</body>
+
+</html>
