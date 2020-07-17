@@ -1,0 +1,19 @@
+{
+  "reportes":{
+    "1":{"tipo":"transito" ,"fecha":"11/07/2020", "hora":"5:00" ,"prioridad":1,"logged":0, "vehiculos":["carro"], "heridos":1, "riesgo":1, "bloqueo":1 ,"danios":1,"fuga":1,"grua":1,"comentarios":"Es un caos, venir rapido"},  
+    "2":{"tipo":"robo" ,"fecha":"11/07/2020" ,"hora":"6:00","prioridad":2,"logged":0, "armas":["pistola"], "comentarios":"en progreso, venir rapido" },
+    "3":{"tipo":"asesinato" ,"fecha":"12/07/2020" ,"hora":"7:00", "prioridad":2,"logged":0, "sospechozo":0, "comentarios":"Es reciente, se escucho el grito"},
+    "4":{"tipo":"rinia" ,"fecha":"13/07/2020" ,"hora":"10:00","prioridad":3,"logged":0, "armas":["cuchillo"], "heridos":0, "fuga":0,"multitud":0,"comentarios":""},
+    "5":{"tipo": "violencia" ,"fecha":"15/07/2020" ,"hora":"15:00" ,"prioridad":4, "logged":0,"origen":0,"comentarios":""},
+    "6":{"tipo":"transito" ,"fecha":"18/07/2020", "hora":"15:00" ,"prioridad":3, "logged":0, "vehiculos":["bus"], "heridos":-1, "riesgo":0, "bloqueo":0 ,"danios":1,"fuga":1,"grua":0,"comentarios":"el chofer rayo otro carro y se fugo"}
+  },
+
+  "index":[
+    {"id":1 ,"tipo":"transito" ,"fecha":"11/07/2020", "hora":"5:00" ,"prioridad":1, "latitud":-2.129893,"longitud":-79.884231},
+    {"id":2,"tipo":"robo" ,"fecha":"11/07/2020" ,"hora":"6:00","prioridad":2, "latitud":-2.159893, "longitud":-79.984231}
+    ,{"id":3,"tipo":"asesinato" ,"fecha":"12/07/2020" ,"hora":"7:00", "prioridad":2, "latitud":-2.199893, "longitud":-79.964231}
+    ,{"id":4,"tipo":"rinia" ,"fecha":"13/07/2020" ,"hora":"10:00","prioridad":3, "latitud":-2.529893,"longitud":-79.904231}
+    ,{"id":5,"tipo": "violencia" ,"fecha":"15/07/2020" ,"hora":"15:00" ,"prioridad":4, "latitud":-2.829893,"longitud":-79.904231}
+    ,{"id":6,"tipo":"transito" ,"fecha":"18/07/2020", "hora":"15:00" ,"prioridad":3, "latitud":-2.529893,"longitud":-79.864231}
+    ]
+}
