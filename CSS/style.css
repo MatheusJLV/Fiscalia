@@ -21,10 +21,14 @@ li#NavItem
   margin-left: 10%;
 }
 
-div#scrollview-alertas{
-  height: 450px;
-  overflow: scroll;
+header{
+  background-color: rgb(145, 214, 246);
 }
+
+#logo{
+  height: 25%;
+}
+
 
 header{
   background-color: rgb(145, 214, 246);
@@ -33,6 +37,7 @@ header{
 #logo{
   height: 25%;
 }
+
 
 #navegacion ul li{
   display: inline;

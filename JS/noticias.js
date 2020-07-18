@@ -1,4 +1,5 @@
 function loadData() {
+
     fetch("./RECURSOS/data/noticias.xml")
         .then(function(resultado) {
   
@@ -83,3 +84,4 @@ function loadData() {
       loadData();
       /*setSearch();*/
   })
+

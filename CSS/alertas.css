@@ -1,0 +1,25 @@
+div#scrollview-alertas{
+  height: 450px;
+  overflow: scroll;
+  background-color:#3E3E3E;
+  margin-left:50 !important;
+  margin-top:20px !important;
+}
+ul#listaAlertas{
+  list-style:none;
+  padding-inline-start: 10px !important;
+  
+}
+li.item_alerta{
+  background-color:#CBCBCB;
+}
+div#map{
+  margin-left:50px !important;
+  margin-top:20px !important;
+}
+div#Detalle-Alerta{
+  padding-inline-start: 50px !important;
+}
+div.filtro-container{
+  padding-inline-start: 10px !important;
+}
