@@ -1,6 +1,6 @@
 function loadData() {
 
-    fetch("./RECURSOS/data/noticias.xml")
+    fetch("../RECURSOS/data/noticias.xml")
         .then(function(resultado) {
   
               return resultado.text()
@@ -34,7 +34,7 @@ function loadData() {
                   titulo.innerHTML=noticia.getElementsByTagName("Titulo")[0].textContent;
                   //console.log(titulo.innerHTML);
   
-                  imagenNoticia.setAttribute("src",noticia.getElementsByTagName("Location")[0].textContent);
+                  imagenNoticia.setAttribute("src","."+noticia.getElementsByTagName("Location")[0].textContent);
                   imagenNoticia.setAttribute("alt",noticia.getElementsByTagName("Alternativo")[0].textContent)
                   fecha.innerHTML=noticia.getElementsByTagName("Fecha")[0].textContent;
                   //console.log(fecha.innerHTML);
