@@ -1,0 +1,30 @@
+.navbar.navbar-inverse {
+  border: none;
+}
+.navbar .navbar-brand {
+  padding-top: 0px;
+}
+.navbar .navbar-brand img {
+  height: 50px;
+}
+
+.panicBtn{
+  height: 50px;
+}
+
+.navBtn{
+  margin-left: 10px;
+}
+/* SLIDER  */
+.slideItem{
+  height: 404px;
+  width: 900px;
+}
+
+body {
+  padding-top: 5rem;
+}
+
+main {
+  padding: 3rem 1.5rem;
+}

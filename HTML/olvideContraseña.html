@@ -20,45 +20,55 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <header class="row">
-      <img class="col-sm-2" style="height: 100px; width: 20px"src="..\RECURSOS\logo4.png"/>
-        <h1 class="col-sm-8">La casa de los corruptos es la cárcel</h1>
-      </div>
-      <div class="row">
-        <nav id="navegacion">
-          <ul>
-            <li><a>Inicio</a></li>
-            <li><a>Noticias</a></li>
-            <li><a>Denuncias</a></li>
-            <li><a>Ayuda</a></li>
-          </ul>
-        </nav>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark" style = "height: 80px" >
+		<a class="navbar-brand" href="../index.html"><img id="logoNav" style = "height: 50px" src="../RECURSOS/logo5.PNG"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Noticias <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Denuncias <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="./nosotros.html">Nosotros <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Ayuda <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    
+          <a href="/HTML/decoy.html" ><img src="../RECURSOS/panic_button.png" class="panicBtn navBtn" style = "height: 50px"></a>
+    </form>
+  </div>
+</nav>
+
+
+    <div class ="row mx-auto bg-warning">
+        <img class="col-sm-4 d-none d-sm-none d-md-block" id="ImgLaterales" src="..\RECURSOS\police.jpg"/>
+      <div id="conteregistro" class="col-sm-4 col-10 mx-auto border border-primary p-5 bg-light">
+        <div class="container-fluid h-10">
+          <h1 class= "row text-center">Recuperar</h1>
+          <p class ="row text-center">Te enviaremos un mensaje de confirmación<p>
         </div>
-    </header>
-    <div class ="row mx-auto bg-info">
-        <img class="col-sm-4" id="logoNav" src="C:\Users\kevin\OneDrive\Escritorio\carpetas\Semestres\SeptimoSemestre\DAWM\proyecto\police.jpg"/>
-      <div id="conteregistro" class="col-sm-4 col-10 mx-auto border border-primary w-50 p-5 bg-light" style="width: 100px; height: 400px;">
-        <div class="h-25 text-center">
-          <h1>Recuperar</h1>
-          <p>Te enviaremos un mensaje de confirmación<p>
+        <form>
+        <div class="form-group">
+          <label for="mail" >Correo: </label>
+          <input type="text" name="email" id="mail" class="form-control">
         </div>
-        <form class="mt-4">
-        <div class="row">
-          <label for="mail" class="">Correo: </label>
-          <input type="text" name="email" id="mail" class="ml-2">
-        </div>
-        <div class="row mt-3 mx-auto" style="width: 300px;">
-        <button class=""type="submit" class="">Enviar verificación</button>
+        <div>
+        <a href="#"><button class=""type="submit" class="btn btn-dark">Enviar verificación</button></a>
       </div>
       </form>
     </div>
-    <img class="col-sm-4" id="logoNav" src="C:\Users\kevin\OneDrive\Escritorio\carpetas\Semestres\SeptimoSemestre\DAWM\proyecto\police.jpg"/>
-    <div></div>
-    </div>
-    <footer>
-      <p>&copy;</p>
-    </footer>
+    <img class="col-sm-4 d-none d-sm-none d-md-block" id="ImgLaterales" src="..\RECURSOS\police.jpg"/>
 
     </div>
     <!-- Optional JavaScript -->

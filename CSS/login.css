@@ -8,11 +8,10 @@
   height: 50px;
 }
 
-body {
-  padding-top: 5rem;
+.panicBtn{
+  height: 50px;
 }
 
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
+.navBtn{
+  margin-left: 10px;
 }

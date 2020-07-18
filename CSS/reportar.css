@@ -1,0 +1,67 @@
+.navbar.navbar-inverse {
+  border: none;
+}
+.navbar .navbar-brand {
+  padding-top: 0px;
+}
+.navbar .navbar-brand img {
+  height: 50px;
+}
+
+.panicBtn{
+  height: 50px;
+}
+
+.navBtn{
+  margin-left: 10px;
+}
+/**/
+.tipodenuncia_btn {
+    width: 200px;
+    height: 105px;
+    padding: 10px;
+    line-height: 50px;
+    text-align: left;
+    text-indent: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    color: #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: white;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.tipodenuncia_btn:hover {
+    background-color: #F7F7F7;
+}
+
+.tipodenuncia_btn img {
+    float: left;
+}
+
+.navbar.navbar-inverse {
+  border: none;
+}
+.navbar .navbar-brand {
+  padding-top: 0px;
+}
+.navbar .navbar-brand img {
+  height: 50px;
+}
+
+.iconobtn{
+  width: 70px;
+  height: 70px;
+}
+
+body {
+  padding-top: 5rem;
+}
+
+main {
+  padding: 3rem 1.5rem;
+}

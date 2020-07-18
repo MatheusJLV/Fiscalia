@@ -18,6 +18,7 @@ Para la parte de juan diego <h3 id="Desarmado" class="col-12">Agresor Desarmado<
           <p class="col-5">Parrafo</p>
           
           <iframe class="col-5" width="560" height="315" src="https://www.youtube.com/embed/uChtVfTjNyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+
 <html lang="ar" dir="ltr">
 
 <head>
@@ -26,102 +27,228 @@ Para la parte de juan diego <h3 id="Desarmado" class="col-12">Agresor Desarmado<
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>repl.it</title>
-	<link href="../CSS/style.css" rel="stylesheet" type="text/css" />
-
+	<!--<link href="../CSS/style.css" rel="stylesheet" type="text/css" />-->
+  <link href="../CSS/informacion.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-	<div id="Navbar">
-		<img id="logoNav" src="../RECURSOS/logo4.png"/>
-        <div id="rightHeader">
-          <h1>La casa de los corruptos es la cárcel</h1>
-          <nav id="navegacion">
-            <ul>
-              <li id="NavItem"><a>Inicio</a></li>
-              <li id="NavItem"><a>Noticias</a></li>
-              <li id="NavItem"><a>Denuncias</a></li>
-              <li id="NavItem"><a>Ayuda</a></li>
-            </ul>
-          </nav>
+  <div class = "container-fluid">  
+    <div class="row">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="../index.html"><img id="logoNav" src="../RECURSOS/logo5.PNG"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/HTML/informacion.html">Información <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/HTML/reportar.html">Denuncias <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/HTML/nosotros.html">Nosotros <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/HTML/ayuda.html">Ayuda <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <a href="/HTML/registro.html"><button type="button" class="btn btn-primary navBtn">Registrar</button></a>
+          </form>
+          <form class="form-inline my-2 my-lg-0">
+            <a href= "/HTML/login.html"><button type="button" class="btn btn-primary navBtn">Iniciar Sesión</button></a>
+          </form>
+          <a href="/HTML/decoy.html"><img src="/RECURSOS/panic_button.png" class="panicBtn navBtn"></a>
         </div>
+      </nav>
     </div>
-
+    <h1>Información</h1>
     
-    <h1>Informacion</h1>
-    
-
+  
     <div class="row">
       <div class="indiceInfo col-3">
-        <h3>Indice</h3>
-        <ul>
-          <li> 
-            <a href="#">¿Cómo identificar delitos?   
-            </a>
+        <h3>Índice</h3>
+        <ul class="list-unstyled">           
+          <li class ="font-weight-bold">
+            <a href="#">¿Cómo identificar delitos?</a></li>
             <ul>
-                <li><a href="#Robo"></a>Robo</li>
-                <li><a href="#Asesinato">Asesinato</a></li>
-                <li><a href="#Riña">Riña</a></li>
-                <li><a href="#Transito">Accidente de Tránsito</a></li>
-                <li><a href="#VDiomestica">Violencia Doméstica</a></li>
+                <li><a href="#Thief">Robo</a></li>
+                <li><a href="#Kill">Asesinato</a></li>
+                <li><a href="#Alteración">Alteración del Orden Público</a></li>
+                <li><a href="#Transit">Accidente de Tránsito</a></li>
+                <li><a href="#Domestic">Violencia Doméstica</a></li>
               </ul>
-          </li>
-          <li>
-            <a href="#">Consejos para la comunidad</a>
+          
+          <li class ="font-weight-bold">
+            <a href="#">Consejos para la comunidad</a></li>
             <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li><a href="#ActitudesCalle">Actitudes al salir de casa</a></li>
+                <li><a href="#CasaSegura">Mantener la casa segura</a></li>
               </ul>
-          </li>
-          <li>
-            <a href="#">Defensa personal</a>
+          
+          <li class ="font-weight-bold">
+            <a href="#DefensaPersonal">Defensa Personal</a></li>
             <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li><a href="#ConsejosPuntuales">Consejos puntuales</a></li>
+                <li><a href="#Maniobras">Maniobras recomendadas</a></li>
+                <li><a href="#VideosUtiles">Videos útiles</a></li>
               </ul>
-          </li>
-          <li>
-            <a href="#Amenaza">¿Qué hacer en presencia de amenazas?</a>
+          
+          <li class ="font-weight-bold">
+            <a href="#Amenaza">¿Qué hacer en presencia de amenazas?</a></li>
             <ul>
                 <li><a href="#Desarmado">Agresor Desarmado</a></li>
                 <li><a href="#Contundente">Arma Contundente</a></li>
                 <li><a href="#ABlanca">Arma Blanca</a></li>
                 <li><a href="#AFuego">Arma de Fuego</a></li>
               </ul>
-          </li>
+          
         </ul>
-
       </div>
 
       <div class="contenidoInfo col-9">
+        <div id="contenedorDelitos" class = "row">
+          <h2 id="CrimenInfo" class="col-12 my-auto">¿Cómo identificar delitos?</h2>
+          
+           
+          <h3 id="Thief" class="col-12 my-auto">Robo</h3>
+          <div class = "row">
+          <img class="col-sm-12 col-md-5 col-lg-5"  height="250" src="..\RECURSOS\robo.jpg"></p>
+          <p class="col-sm-12 col-md-5 col-lg-5 my-auto text-justify">El robo se define a menudo como la sustracción no autorizada de los bienes de otra persona con la intención de privarla permanentemente de ellos. El elemento de sustracción en un robo normalmente requiere tomar posesión de un bien que pertenece a otro y también implica quitar o intentar quitar el bien.</p>
+        </div>
+
+          <h3 id="Kill" class="col-12">Asesinato</h3>
+          <p class="col-sm-12 col-md-5 col-lg-5 my-auto text-justify">El asesinato consiste básicamente en matar a un individuo, por tanto, es que se trata de un delito contra la vida, generalmente practicado con alevosía, ensañamiento y con premeditación, pueden existir de varios tipos, algunos más agravantes que otros.</p>
+
+          <img class="col-sm-12 col-md-5 col-lg-5" height="250" src="..\RECURSOS\asesinato.jpg"></p>
+
+          <h3 id="Alteracion" class="col-12">Alteración del  Orden Público</h3>
+
+          <img class="col-sm-12 col-md-5 col-lg-5"  height="250"  width="560"src="..\RECURSOS\pelea.jpg"></p>
+          <p class="col-sm-12 col-md-5 col-lg-5 my-auto text-justify">La alteración del orden público es un delito penal que ocurre cuando una persona participa en algún tipo de conducta escandalosa, tal como peleas o amenazas de peleas en público, ruidos excesivamente altos, gritos, música a alto volumen o incluso permitir que un perro ladre durante largos períodos de tiempo. Cuando las palabras o la conducta de una persona ponen en peligro el derecho de los demás de gozar de paz y tranquilidad, pueden acusarla de alteración del orden público.</p>
+
+          <h3 id="Transit" class="col-12">Accidente de Tránsito</h3>
+
+          <p class="col-sm-12 col-md-5 col-lg-5 my-auto text-justify">Un accidente de tránsito es aquel acontecimiento producido entre uno o más vehículos y/o peatones, sea de forma dolosa o culposa, con consecuencia de lesiones y daños para las personas y bienes involucrados en él.</p>
+
+          <img class="col-sm-12 col-md-5 col-lg-5" height="250" width="560" src="..\RECURSOS\transito.jpg"></p>
+
+          <h3 id="Domestic" class="col-12">Violencia Doméstica</h3>
+
+
+          <img class="col-sm-12 col-md-5 col-lg-5" height="250"  width="560"src="..\RECURSOS\hogarViolencia.jpg"></p>
+          <p class="col-sm-12 col-md-5 col-lg-5 my-auto text-justify">La violencia doméstica es un tipo de abuso. Por lo general, implica un cónyuge o pareja, pero también puede ser un niño, pariente mayor u otro miembro de la familia. La violencia doméstica puede incluir diferentes tipos de abuso, como: Violencia física, violencia sexual, abuso emocional, abuso económico y acoso o acecho.</p>
+        </div>
+        <!-- -->
+        <div id="contenedorConsejos" class = "row">
+          <h2 id="ConsejosInfo" class="col-12 my-auto">Consejos para la comunidad</h2>
+          
+           
+          <h3 id="ActitudesCalle" class="col-12 my-auto">Actitudes al salir de casa</h3>
+          <div class = "row">
+          <img class="col-sm-12 col-md-5 col-lg-5"  height="250" src="..\RECURSOS\mochilafrente.jpg"></p>
+          <p class="col-sm-12 col-md-5 col-lg-5 my-auto text-justify">Al estar fuera de la comodidad y seguridad de nuestros hogares, nos exponemos a muchos peligros. Podemos evitar ser el blanco de antisociales si seguimos los siguientes consejos.<br/>
+          <b>*</b> Tener la mochila al frente del cuerpo tanto en la calle como en transporte público.<br/>
+          <b>*</b> No hablar por celular en la calle, a menos que sea estrictamente necesario.<br/>
+          <b>*</b> Fijarse en el entorno, personas que te puedan estar observando o siguiendo. Trata de no alejarte del público o entrar a un establecimiento para disuadir.<br/>
+          </p>
+        </div>
+
+          <h3 id="CasaSegura" class="col-12">Mantener la casa segura</h3>
+          <p class="col-sm-12 col-md-5 col-lg-5 my-auto text-justify">Uno de los mayores miedos de los dueños de casa, es saber si es lo suficiente segura para evitar que los antisociales irrumpan en sus hogares. Los siguientes consejos pueden ayudarte.<br/>
+          <b>*</b>Si sales de casa, asegúrate de evitar comentar a desconocidos sobre tu ausencia.<br/>
+          <b>*</b> Asegúrate de cerrar puertas y ventanas, usar candados en cada puerta si es posible.<br/>
+          <b>*</b> Fijarse en el entorno, personas que te puedan estar observando o siguiendo. Trata de no alejarte del público o entrar a un establecimiento para disuadir.<br/>
+          <b>*</b>Controla lo que subes a las redes sociales, ya que es una fuente de información para los delincuentes.<br/>
+          </p>
+
+          <img class="col-sm-12 col-md-5 col-lg-5" height="250" src="..\RECURSOS\casasegura.jpg"></p>
+
+        </div>
+
+
+        <!-- -->
+        <div id ="contenedorDefPersonal" class = "row">
+          <h2 id ="DefensaPersonal" class = "col-12">Defensa Personal</h2>         
+          <div class = "row d-inline-flex">
+          <div class = "col-6"> 
+          <h3 id = "ConsejosPuntuales" class = "col-12">Consejos puntuales</h3>
+            <small class = "col-12 text-muted"> (Obtenido y traducido de<a href="https://www.expertsecuritytips.com/self-defense/"> Expert Security Tips</a>)
+            </small>
+
+            <ul class="col-8 my-auto text-justify list-unstyled">
+              <li><strong>Mantener la calma</strong><br>A pesar de tener miedo, retener la compostura y exhibir ferocidad manda señales de alerta al atacante.</li>
+              <li><strong>Golpear primero</strong><br>Nada desestabiliza más rápido que ser golpeado primero, así que actúe rápido. Si conecta el primer golpe, la puerta de escape se abrirá de par en par. </li>
+              <li><strong>No trate de ganar</strong><br>Recuerde que no es una pelea, y que no hay premio para el ganador. Resista lo suficiente para librarse del ataque, y lárguese de la escena apenas surja la oportunidad.</li>
+            </ul>
+          </div>
+          <div class = "col-6"> 
+          <h3 id = "Maniobras" class = "col-12">Maniobras recomendadas</h3>
+          <small class = "col-12 text-muted"> (Obtenido y traducido de<a href="https://www.rd.com/list/self-defense-moves/"> Reader's Digest</a>)
+            </small>
+
+            <ul class="col-8 my-auto text-justify list-unstyled">
+              <li><strong>Sepa cómo defender un puñetazo</strong><br>Pueden venir directamente al centro o en gancho. Se deben redirigir con la mano y bloquear con el brazo, respectivamente.</li>           
+              <li><strong>Golpee donde duele</strong><br>Apunte a áreas como ingle, garganta, rodillas y muslos. Pisar es buena idea si el calzado del atacante no ofrece mucha protección.</li>
+              <li><strong>Cuerpo sólido</strong><br>Mantenga las manos arriba y el mentón bajo. Es fácil ser noqueado si se reciben golpes contundentes en la mandíbula.</li>
+            </ul>
+          </div>
+          </div> 
+          <h3 id = "VideosUtiles" class = "col-12">Videos útiles</h3>
+
+        <div class = "row d-inline-flex align-items-between">
+            <div class ="col-12">
+              <iframe class="col-sm-12 col-md-5 col-lg-5" width="560" height="315" src="https://www.youtube.com/embed/aq3mnDRVIq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="col-sm-12 col-md-5 col-lg-5" width="560" height="315" src="https://www.youtube.com/embed/KVpxP3ZZtAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+          <div class ="col-12">
+            <iframe class="col-sm-12 col-md-5 col-lg-5" width="560" height="315" src="https://www.youtube.com/embed/ORAOkP1h3R0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="col-sm-12 col-md-5 col-lg-5 " width="560" height="315" src="https://www.youtube.com/embed/dePpR5GsCxI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        </div>
+
         <div id="contenedorAmenaza" class="row">
+
           <h2 id="Amenaza" class="col-12">¿Qué hacer en presencia de armas?</h2>  
 
           
 
           <h3 id="Contundente" class="col-12">Arma Contundente</h3>          
+          <p class="col-10 disclaimer">*Se le recuerda a la ciudadanía que en caso de sentirse en peligro inminente o en caso de no sentirse en capacidad de defenderse, las únicas recomendaciones serán ocultarse, no mostrar resistencia hacia agresor, intentar comunicarse con el equipo de emergencia y esperar la ayuda.*</p>
 
-          <p class="col-5">Parrafo</p>
+          <p class="col-sm-12 col-md-5 col-lg-5 my-auto text-justify">Las armas contundentes son aquellas armas que al ser usadas para atacar causan contusiones o golpes.<br>Ejemplos de este tipo son los bates, palos, tubos, martillos, mazos, etc.<br>Las armas contundentes poseen su mayor fuerza de impacto en el extremo exterior por lo que existen 2 estrategias contra esta arma. De forma defensiva lo importante es mantener la distancia y alejarse del agresor manteniendose fuera del rango del arma. De manera mas ofensiva se puede buscar acortar al maximo la distancia entre el agresor y usted para poder apropiarse del arma. </p>
 
-          <iframe class="col-5" width="560" height="315" src="https://www.youtube.com/embed/SUpu0LdfzjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="col-sm-12 col-md-5 col-lg-5" width="560" height="315" src="https://www.youtube.com/embed/SUpu0LdfzjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-          <h3 id="ABlanca" class="col-12">Arma Blanca</h3>          
+          <h3 id="ABlanca" class="col-12">Arma Blanca</h3>   
 
-          <p class="col-5">Parrafo</p>
+          <p class="col-10 disclaimer">*Se le recuerda a la ciudadanía que en caso de sentirse en peligro inminente o en caso de no sentirse en capacidad de defenderse, las únicas recomendaciones serán ocultarse, no mostrar resistencia hacia agresor, intentar comunicarse con el equipo de emergencia y esperar la ayuda.*</p>       
 
-          <iframe class="col-5" width="560" height="315" src="https://www.youtube.com/embed/c874Nn2uBlY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+          
 
-          <p class="col-5">Parrafo</p>
+          <iframe class="col-sm-12 col-md-5 col-lg-5" width="560" height="315" src="https://www.youtube.com/embed/c874Nn2uBlY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-          <iframe class="col-5" width="560" height="315" src="https://www.youtube.com/embed/UaZeaC3kXVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class="col-sm-12 col-md-5 col-lg-5 my-auto text-justify">Las armas blancas son aquellas armas que al ser usadas para atacar causan cortes o punzadas.<br>Ejemplos de este tipo son los cuchillos, navajas, estiletes, machetes, etc.<br>Las armas blancas no requieren de mucho esfuerzo para causar daños, basta con entrar en contacto o usar movimientos veloces para causar heridas. Es necesario mantener la calma,a en todo momento para no alterar al agresor ni levantar sospechas.
+          </p>
+
+          <p class="col-sm-12 col-md-5 col-lg-5 my-auto text-justify">De ser posible, analizar los alrededores de forma discreta manteniendose fuera del rango del arma para determinar si es posible escapar o si la unica opcion es ceder ante el agresor y esperar ayuda.</p>
+
+          <iframe class="col-sm-12 col-md-5 col-lg-5" width="560" height="315" src="https://www.youtube.com/embed/UaZeaC3kXVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
           <h3 id="AFuego" class="col-12">Arma de Fuego</h3> 
 
+          <p class="col-10 disclaimer">*Se le recuerda a la ciudadanía que en caso de sentirse en peligro inminente o en caso de no sentirse en capacidad de defenderse, las únicas recomendaciones serán ocultarse, no mostrar resistencia hacia agresor, intentar comunicarse con el equipo de emergencia y esperar la ayuda.*</p>
 
-          <p class="col-5">Parrafo</p>
+
+          <p class="col-sm-12 col-md-5 col-lg-5 text-justify">La Fiscalía no sugiere ni aprueba oponer resistencia alguna contra un agresor en posesión de un arma de fuego. Se sugiere firmemente que mantenga la calma y espere la ayuda debida.</p>
 
           <!-- F por la defensa contra armas de fuego... no se puede sugerir :< <iframe width="560" height="315" src="https://www.youtube.com/embed/xrXkD2uWw_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
@@ -132,6 +259,8 @@ Para la parte de juan diego <h3 id="Desarmado" class="col-12">Agresor Desarmado<
         </div>
       </div>
     </div>
+  </div>
+
 
     <script src="../js/reportes.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
