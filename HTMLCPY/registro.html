@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+
+<head>
+  <link href="../CSS/registro.css" rel="stylesheet" type="text/css" /> 
+
+  <meta charset="utf-8">
+
+
+  <title>Fiscalía General del Estado</title>
+
+  <meta name="author" content="KBF" />
+  <meta name="keywords" content="fiscalía, registro" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+   crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="row">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="../index.html"><img id="logoNav" src="../RECURSOS/logo5.PNG"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./informacion.html">Información <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./reportar.html">Denuncias <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./nosotros.html">Nosotros <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./ayuda.html">Ayuda <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <a href="./registro.html"><button type="button" class="btn btn-primary navBtn">Registrar</button></a>
+          </form>
+          <form class="form-inline my-2 my-lg-0">
+            <a href= "./login.html"><button type="button" class="btn btn-primary navBtn">Iniciar Sesión</button></a>
+          </form>
+          <a href="./decoy.html"><img src="../RECURSOS/panic_button.png" class="panicBtn navBtn"></a>
+        </div>
+      </nav>
+    </div>
+
+
+    <div class ="row mx-auto bg-warning">
+        <img class="col-sm-4 d-none d-sm-none d-md-block" id="ImgLaterales" src="..\RECURSOS\police.jpg"/>
+      <div id="conteregistro" class="col-sm-4 col-12 mx-auto border border-primary w-50 p-5 bg-light">
+        <div class="container-fluid pt-5">
+          <h1 class="row text-center">Registro</h1>
+          <p class = "row text-center">Mientras más datos ingreses, mejor será su atención</p>
+        </div>
+        <form>
+          <div class="form-group">
+           <label for="nombres">Nombre Completo:</label>
+           <input type="text" class="form-control" id="nombres" name="nombres" required>
+        </div>
+        <div class="form-group">
+           <label for="nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="nacimiento" name="nacimiento" class="form-control"required></div>
+        <div class="">
+           Género:
+           <div class="form-check form-check-inline"><label class="form-check-label"> <input class="form-check-input" type="radio" id="inlineRadio1" name="val"> Masculino</label></div>
+            <div class="form-check form-check-inline"><label class="form-check-label"><input class="form-check-input" type="radio" id="inlineRadio2" name="val"> Femenino</label>
+            </div>
+            <div class="form-check form-check-inline"><label class="form-check-label"><input class="form-check-input" type="radio" id="inlineRadio3" name="val"> Otro </label>
+            </div>
+        </div>
+        <div class="form-group" >
+           <label for="cedula" class="">Cédula/Pasaporte:</label>
+           <input class="form-control" type="text" id="cedula" name="cedula" required>
+        </div>
+        <div class="form-group">
+          <label for="mail"> Correo: </label>
+          <input type="text" name="email" id="mail" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="password"> Contraseña: </label>
+          <input type="password" name="psw" id="passw" class="form-control">
+        </div>
+         <div class="form-group">
+          <label for="passwordvER" class=""> Verificar Contraseña: </label>
+          <input type="password" name="psw" id="passw" class="form-control">
+        </div>
+        <div class="form-group" >
+           <label for="foto" class="">Foto:</label>
+           <input class="form-control" type="file" id="foto" name="foto" required  accept="image/png, image/jpeg"> 
+        </div>
+        <div class="form-group">
+        <a href = "../HTMLCPY/index.html"<button type="registrar" class="btn btn-dark">Registrarse</button></a>  
+      </div>
+      </form>
+    </div>
+    <img class="col-sm-4 d-none d-sm-none d-md-block" id="ImgLaterales" src="..\RECURSOS\police.jpg"/>
+    </div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+
+  </html>

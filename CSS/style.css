@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 imgid#logoNav,#rightHeader
 {
   display: inline-block;
@@ -20,3 +25,26 @@ div#scrollview-alertas{
   height: 450px;
   overflow: scroll;
 }
+
+header{
+  background-color: rgb(145, 214, 246);
+}
+
+#logo{
+  height: 25%;
+}
+
+#navegacion ul li{
+  display: inline;
+  margin-left: 10%;
+}
+
+
+.disclaimer{
+  color:red;
+  font-weight: bolder;
+}
+
+#map { height: 500px; 
+width: 600px }
+
